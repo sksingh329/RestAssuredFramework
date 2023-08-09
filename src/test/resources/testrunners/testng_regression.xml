@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Regression Suite" thread-count="1" parallel="tests">
+    <listeners>
+        <listener class-name="com.qa.gorest.listeners.ExtentReportListener"></listener>
+    </listeners>
+<!--    <test name="Go Rest API Test - Get User">-->
+<!--        <parameter name="baseURI" value="https://gorest.co.in"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.GetUserTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--    <test name="Go Rest API Test - Create User">-->
+<!--        <parameter name="baseURI" value="https://gorest.co.in"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.CreateUserTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Circuit API Test">-->
+<!--        <parameter name="baseURI" value="http://ergast.com"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.CircuitTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Req Res API Test">-->
+<!--        <parameter name="baseURI" value="https://reqres.in"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.ReqResTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Amadeus Flight API Test">-->
+<!--        <parameter name="baseURI" value="https://test.api.amadeus.com"/>-->
+<!--        <parameter name="grantType" value="client_credentials"/>-->
+<!--        <parameter name="clientId" value="obowzRYwIKXz4YKG93FdkzTj0JWnikjn"/>-->
+<!--        <parameter name="clientSecret" value="uhnIe3HSEpckNTev"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.AmadeusAPITest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+    <test name="Fake Store API Test">
+        <parameter name="baseURI" value="https://fakestoreapi.com"/>
+        <classes>
+            <class name="com.qa.gorest.tests.FakeStoreAPITest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
