@@ -17,12 +17,12 @@
 <!--        </classes>-->
 <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
 
-<!--    <test name="Circuit API Test">-->
-<!--        <parameter name="baseURI" value="http://ergast.com"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.CircuitTest"/>-->
-<!--        </classes>-->
-<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+    <test verbose="4" name="Circuit API Test">
+        <parameter name="baseURI" value="http://ergast.com"/>
+        <classes>
+            <class name="com.qa.gorest.tests.CircuitTest"/>
+        </classes>
+    </test> <!-- Test -->
 
 <!--    <test name="Req Res API Test">-->
 <!--        <parameter name="baseURI" value="https://reqres.in"/>-->
@@ -40,10 +40,10 @@
 <!--            <class name="com.qa.gorest.tests.AmadeusAPITest"/>-->
 <!--        </classes>-->
 <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
-    <test name="Fake Store API Test">
-        <parameter name="baseURI" value="https://fakestoreapi.com"/>
-        <classes>
-            <class name="com.qa.gorest.tests.FakeStoreAPITest"/>
-        </classes>
-    </test> <!-- Test -->
+<!--    <test name="Fake Store API Test">-->
+<!--        <parameter name="baseURI" value="https://fakestoreapi.com"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.gorest.tests.FakeStoreAPITest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
 </suite> <!-- Suite -->
