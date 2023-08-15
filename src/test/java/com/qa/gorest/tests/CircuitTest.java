@@ -27,7 +27,7 @@ public class CircuitTest extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "getCircuitYear")
+    @Test(dataProvider = "getCircuitYear",enabled = true)
     public void getCircuitTest(int circuitYear){
         Response circuitResponse = restClient.get(CIRCUIT_ENDPOINT+"/"+circuitYear+"/circuits.json",false,true);
 
